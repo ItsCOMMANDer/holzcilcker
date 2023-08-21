@@ -13,12 +13,28 @@
 }
 
 .navBar {
-    display: block;
+    display: none;
+    animation-duration: 5s;
     float: right;
     background-color: cornflowerblue;
     border-radius: 20px;
-    padding: 7px;
+    padding: 10px;
     margin: 10px;
-    width: 50px;
-    height: 600px;
+    width: 250px;
+    height: 100vh - 67px;
+}
+
+.navBar a {
+    color: blue;
+    text-decoration: none;
+    margin: 17px;
+    padding: 7px;
+}
+
+.navBar a:hover {
+    color: lightblue;
+    text-decoration: none;
+    background-color: darkblue;
+    border-radius: 20px;
+    
 }
